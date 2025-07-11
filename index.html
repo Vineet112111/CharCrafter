@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASCII Art Generator</title>
+  <link rel="icon" href="VMlogo.jpg" type="image/jpg">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+  <div class="nav-left">🦋CharCrafter</div>
+  <div class="nav-right">
+    <a href="https://vineet112111.github.io/Guess-the-number-game/" target="_blank">🎯 Guess Game</a>
+    <a href="https://vineet112111.github.io/Currency_Crafter/" target="_blank">💱 Currency Crafter</a>
+    <a href="https://vineet112111.github.io/Snake-Water-Gun-Game/" target="_blank">🐍 Snake-Water-Gun</a>
+    <a href="https://vineet112111.github.io/Coffee/" target="_blank">☕ Coffee Site</a>
+    <a href="https://www.linkedin.com/in/vineet-yadav-68059533a/" target="_blank">💼 LinkedIn</a>
+    <a href="https://www.instagram.com/vineet___alvi/" target="_blank">📷 Instagram</a>
+    <button class="theme" onclick="toggleTheme()">🌓 Toggle Theme</button>
+  </div>
+</nav>
+   
+  </div>
+  <div class="container">
+    <h1>🎨 ASCII Art Generator</h1>
+     <p>Transform your text into beautiful ASCII art!</p>
+
+    <div class="input-group">
+      <input type="text" id="symbol" placeholder="Enter symbol (e.g. * or @)" />
+      <textarea id="inputText" rows="3" placeholder="Let's turn text into magic 💫"></textarea>
+    </div>
+
+    <div class="btn-group">
+      <button onclick="generateArt()">Generate</button>
+      <button onclick="downloadArt()">Download Text</button>
+      <button onclick="downloadImage()">Download Image</button>
+      <button onclick="clearAll()">Clear</button>
+    </div>
+
+    <div id="outputContainer">
+      <pre id="output"></pre>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Made with ❤️ by 
+      <a href="https://www.linkedin.com/in/vineet-yadav-68059533a/" target="_blank">
+        Vineet Kumar Yadav
+      </a> – IIIT Sonepat
+    </p>
+  </footer>
+
+  <img src="VMlogo.jpg" alt="vineet" class="logo">
+
+  <script src="script.js"></script>
+</body>
+</html>
