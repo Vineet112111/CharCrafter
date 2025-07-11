@@ -416,3 +416,7 @@ window.onload = function () {
     document.body.classList.add("dark-mode");
   }
 };
+function toggleMenu() {
+  const nav = document.getElementById("navLinks");
+  nav.classList.toggle("show");
+}
