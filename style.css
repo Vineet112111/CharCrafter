@@ -135,7 +135,7 @@ textarea:focus {
 }
 
 button {
-  padding: 12px 18px;
+  padding: 5px 15px;
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
   border: none;
@@ -288,6 +288,7 @@ button:hover {
   background: linear-gradient(135deg, #238636, #196c2e);
   color: #ffffff;
   border: none;
+  padding: 5px 15px;
 }
 
 .dark-mode button:hover {
