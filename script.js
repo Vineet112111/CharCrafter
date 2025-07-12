@@ -403,11 +403,10 @@ function clearAll() {
 
 function toggleTheme() {
   document.body.classList.toggle("dark-mode");
-
-  // Optional: persist user's choice
   const isDark = document.body.classList.contains("dark-mode");
   localStorage.setItem("theme", isDark ? "dark" : "light");
 }
+
 
 // Load saved theme on page load
 window.onload = function () {
